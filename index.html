@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="picture">
+        <div class="banner">
+            <img src="odin-lined.png">
+            The Odin Project
+        </div>
+    </div>
+    <div class="form">
+
+        <p>
+            This is not a real online service! You know you need something 
+            like this in your life to help you realise your deepest dreams.
+            Sign up <em>NOW</em> to get started.
+        </p>
+
+        <p>You <em>KNOW</em> you want to.</p>
+
+        <form action="" method="post">
+
+            <legend>Let's do this</legend>
+
+            <div class="wrap">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" title="e.g. Vinesh" required>
+            </div>
+
+            <div class="wrap">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" title="e.g. Morar" required>
+            </div>
+
+            <div class="wrap">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" title="e.g. 07389442348" max="9999999999" min="9999999999">
+            </div>
+
+            <div class="wrap">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" minlength="10" required>
+            </div>
+
+            <div class="contain">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+</html>
